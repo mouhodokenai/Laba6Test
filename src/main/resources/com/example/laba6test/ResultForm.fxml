@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba6test.ResultController">
+   
+   
+    <Button layoutX="112.0" layoutY="146.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #ae8fb9;" text="выйти">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font></Button>
+    <Label layoutX="108.0"  layoutY="14.0" text="РЕЗУЛЬТАТ" textFill="#9800cf">
+        <font>
+            <Font name="Century Gothic" size="14.0" />
+        </font>
+    </Label>
+   <AnchorPane layoutX="244.0" prefHeight="60.0" prefWidth="54.0" />
+   <Label fx:id="result" layoutX="136.0" layoutY="83.0" >
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Label>
+</AnchorPane>
